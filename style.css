@@ -105,3 +105,61 @@ body {
   word-spacing: 4px;
   font-size: 16px;
 }
+header {
+  height: 75px;
+  width: 100%;
+  background-color: #00d8d6;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  border-radius:10px;
+color:pink;
+background-color:#81ecec;
+transition:2s;
+
+-webkit-transform: scale(1.08);
+  transform: scale(1.08);
+
+}
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display:none;
+}
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
